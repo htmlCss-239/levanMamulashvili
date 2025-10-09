@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "3D Unicode";
+  src: url(../Fonts/levkaa.ttf);
+}
+body {
+  margin: 0px;
+}
+header {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 26px;
+  font-family: "3D Unicode";
+  color: white;
+  background-color: red;
+  padding: 10px;
+  font-weight: bolder;
+}
+nav {
+  padding: 5px;
+  margin: 20px;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  background-color: whitesmoke;
+}
+li {
+  margin-left: 10px;
+}
+p {
+  text-align: center;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+img {
+  width: 50%;
+}
+
+ol {
+  text-align: end;
+}
+li {
+  list-style-position: inside;
+}
+.imgright {
+  border-radius: 50px;
+  margin-top: 20px;
+}
+footer {
+  background-color: rgb(43, 160, 94);
+  padding: 20px;
+  height: 100px;
+  text-align: center;
+}
+label {
+  color: white;
+}
+input {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 40px;
+    border: none;
+}
+button {
+  background-color: rgb(225, 173, 29);
+  border-radius: 50px;
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+  background-color: red;
+}
