@@ -1,0 +1,154 @@
+body {
+  background-color: #191927;
+  margin: 0;
+}
+header {
+  color: white;
+  text-align: center;
+
+  padding: 15px;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #3b1c32;
+}
+nav a {
+  padding: 20px;
+  text-decoration: none;
+  color: #bfbfbf;
+}
+nav a:hover {
+  background-color: #310324;
+  color: white;
+}
+main {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+table {
+  background-color: #6a1e55;
+  border: solid 1px;
+  width: 30%;
+  text-align: left;
+  margin: 30px auto;
+  padding: 10px;
+}
+td,
+th {
+  padding: 5px;
+}
+th {
+  background-color: #3d1732;
+}
+td:hover {
+  cursor: pointer;
+}
+
+#comment-wrapper {
+  display: flex;
+  margin: 20px auto;
+  background-color: aliceblue;
+  width: 30%;
+  border: 5px solid rgb(142, 19, 19);
+  padding-bottom: 10px;
+}
+#profile-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 20px;
+}
+#stars {
+  margin-bottom: 10px;
+}
+h4 {
+  margin-bottom: 10px;
+}
+textarea {
+  width: 250px;
+  height: 100px;
+}
+#button-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+#danger {
+  background-color: rgb(4, 159, 4);
+  border: none;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 5px;
+}
+#send {
+  background-color: red;
+  border: none;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 5px;
+}
+.media {
+  color: white;
+}
+#social-media {
+  position: fixed;
+  top: 330px;
+  left: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
+#central-section {
+  box-sizing: border-box;
+}
+#footer {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  background-color: rgb(58, 14, 14);
+  padding: 20px;
+}
+#footer-left {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 30%;
+}
+#footer-left a {
+  text-decoration: none;
+  color: white;
+  margin-bottom: 8px;
+}
+#footer-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+}
+#footer-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+#useful-links {
+  margin-bottom: 20px;
+}
+#email {
+  padding: 10px 80px;
+  text-align: center;
+  color: rgb(101, 99, 99)
+}
+#subscribe{
+  background-color: #191927;
+  border: 2px solid whitesmoke;
+  border-radius: 20px;
+  padding:15px 25px;
+  color: white;
+}
+#footer-right span{
+ margin-bottom:35px;
+}
+ 
