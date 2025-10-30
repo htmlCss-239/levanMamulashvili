@@ -1,0 +1,209 @@
+body {
+  margin: 0;
+/* overflow-x hidden აშორებს ჰორიზონტალურ სქროლს მორბენალი სტრიქონის გამო რომ ჩნდება */
+  overflow-x: hidden; 
+}
+
+header {
+  background-color: beige;
+  padding: 10px;
+}
+
+header h1 {
+  text-shadow: 2px 2px black;
+  margin: 0;
+  color: blue;
+  text-align: center;
+}
+
+.images {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+#monkey1 {
+  background-image: url("../images/monkey1.jpg");
+}
+
+#monkey2 {
+  background-image: url("../images/monkey2.jpg");
+}
+
+#monkey3 {
+  background-image: url("../images/monkey3.jpg");
+}
+
+.monkey {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  height: 250px;
+  width: 20%;
+  border-radius: 50%;
+  cursor: pointer;
+  transition-property: transform;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+}
+
+.monkey:hover {
+  transform: rotate(20deg) scale(1.5);
+}
+
+.animation {
+  animation: moving 5s infinite;
+}
+
+@keyframes moving {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(200px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.animation p {
+  margin-left: 20px;
+}
+
+#data-container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  background-color: sienna;
+  width: 20%;
+}
+
+#circle {
+  background-color: red;
+  border-radius: 50%;
+  min-width: 100px;
+  min-height: 100px;
+  margin: 20px;
+}
+
+#tables {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+table {
+  border: 2px solid black;
+}
+
+th {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  padding: 10px;
+}
+
+td {
+  background-color: rgb(75, 75, 234);
+  color: white;
+  padding: 10px;
+}
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(10, 10, 84);
+}
+
+#footer-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+  border-bottom: 1px solid white;
+}
+#footer-top h1 {
+  color: whitesmoke;
+}
+#slack-icon {
+  display: flex;
+}
+
+#slack-icon i {
+  padding: 30px 5px 0 5px;
+}
+
+#icons {
+  display: flex;
+  align-items: center;
+}
+
+#icons span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+#icons i {
+  color: white;
+}
+#mid-footer {
+  display: flex;
+  padding: 10px 0;
+}
+
+.footer-collumn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 auto;
+}
+
+#mid-footer a {
+  text-decoration: none;
+  color: rgb(195, 213, 228);
+  padding: 2px;
+}
+.useful-links {
+  color: rgb(195, 213, 228);
+  font-weight: bold;
+  text-decoration: underline;
+  text-underline-offset: 20%;
+  padding: 10px 0;
+}
+
+input {
+  background-color: rgb(10, 10, 84);
+  color: rgb(195, 213, 228);
+  padding: 5px 10px;
+  border: 1px solid rgb(195, 213, 228);
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 5px 47px;
+  border: 1px solid rgb(195, 213, 228);
+  text-align: center;
+  border-radius: 5px;
+}
+
+#footer-bottom{
+    background-color: rgb(6, 6, 50);
+    color:rgb(195, 213, 228);
+    display: flex;
+    justify-content: space-between;
+    padding:0 50px;
+}
+
+.footer-bottom-right{
+    display: flex;
+    align-items: center;
+}
+#privacy{
+    margin: 0 10px;
+}
