@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+#menu {
+  display: flex;
+  justify-content: space-between;
+}
+#menu-left h1 {
+  color: rgb(156, 233, 41);
+  display: flex;
+}
+#links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(116, 116, 213);
+  border-radius: 5px;
+  width: 50%;
+}
+#links a {
+  text-decoration: none;
+  color: white;
+  margin-right: 30px;
+}
+#links a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  padding: 10px;
+}
+img {
+  margin-top: 10px;
+  max-width: 100%;
+}
+.animation {
+  position: relative;
+  animation: animation linear 15s infinite;
+  width: 150px;
+}
+@keyframes animation {
+  0% {
+    left: 0px;
+  }
+  50% {
+    left: 1050px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+#content{
+  margin: 10px;
+}
+footer {
+  background-color: rgb(15, 6, 73);
+}
+#footer-top{
+   display: flex;
+  padding: 30px;
+  justify-content: space-around;
+
+}
+#footer-left {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+
+}
+#smile {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+#smile i {
+  display: flex;
+  align-items: center;
+}
+#smile h4 {
+  text-transform: uppercase;
+  margin: 0;
+}
+#icons {
+  display: flex;
+  gap: 10px;
+}
+#icons i {
+  font-size: 15px;
+  background-color: rgb(154, 149, 149);
+  color: white;
+}
+
+#footer-left p {
+  color: rgb(154, 149, 149);
+}
+.footer-mid {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  /* justify-content: center; */
+}
+.footer-mid a, .footer-mid span {
+  padding: 5px;
+}
+footer a {
+  text-decoration: none;
+  color: rgb(154, 149, 149);
+}
+#footer-right {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+.title {
+  color: white;
+  font-weight: 700;
+}
+#footer-right span, #footer-right a{
+  padding: 5px;
+}
+
+#copyright{
+  text-align: center;
+ padding: 20px 0;
+  color: rgb(154, 149, 149);
+}
+#button a {
+  margin-top: 80px;
+  display: flex;
+justify-content: center;
+text-decoration: none;
+font-weight: 900;
+font-size: 50px;
+}
